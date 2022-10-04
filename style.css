@@ -1,105 +1,114 @@
 * {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
 body {
-  width: 100%;
-  height: 100vh;
-  background-color: rgb(51, 167, 234);
-  color: white;
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(51, 167, 234);
+    color: white;
+    background: linear-gradient(
+        90deg,
+        rgba(207, 149, 225, 1) 0%,
+        rgba(136, 86, 205, 1) 35%,
+        rgb(8, 59, 142) 100%
+    );
 }
 .background {
-  position: absolute;
-  bottom: 0;
+    position: absolute;
+    bottom: 0;
 }
 .background img {
-  width: 50%;
-  height: 50%;
-  float: right;
+    width: 50%;
+    height: 50%;
+    float: right;
 }
 img {
-  position: relative;
+    position: relative;
 }
 #image {
-  box-shadow: 15px 15px 20px #080b21, 25px 25px 30px #040511;
+    box-shadow: 15px 15px 20px #080b21, 25px 25px 30px #040511;
 }
+
 nav {
-  margin-top: 2rem;
-  float: right;
-  margin-right: 0.8rem;
-  background-color: #080a1849;
-  padding: 20px;
-  border: 1px solid black;
+    width: 100%;
+    height: 5rem;
+    text-align: center;
+    word-spacing: max 3rem;
+    text-align: right;
+    position: absolute;
+    margin-right: 0.8rem;
+    background-color: rgba(0, 0, 0, 0.685);
+
+    border: none;
+    padding-top: 2rem;
 }
 nav .navi {
-  font-weight: bold;
-  position: relative;
-  padding: 10px;
-  text-decoration: none;
-  color: white;
+    font-weight: bold;
+    position: relative;
+    padding: 10px;
+    margin-top: 5rem;
+
+    text-decoration: none;
+    color: white;
 }
 aside {
-  position: absolute;
-  left: 0;
-  top: 25rem;
+    position: absolute;
+    left: 0;
+    top: 25rem;
 }
 .asideElem {
-  margin: 1rem;
+    margin: 1rem;
 }
 button {
-  margin-left: 1rem;
-  padding: 1rem;
-  border-radius: 15px;
-  text-decoration: none;
-  border: none;
+    margin-left: 1rem;
+    padding: 1rem;
+    border-radius: 15px;
+    text-decoration: none;
+    border: none;
 }
 #date {
-  padding: 0.7rem;
-  border: 1px solid white;
-  border-radius: 15px;
+    padding: 0.7rem;
+    border: 1px solid white;
+    border-radius: 15px;
 }
 .logo {
-  width: 80px;
-  height: 80px;
-  background: linear-gradient(
-    90deg,
-    rgba(207, 149, 225, 1) 0%,
-    rgba(136, 86, 205, 1) 35%,
-    rgb(8, 59, 142) 100%
-  );
-  /* box-shadow: 0px 0px 20px 10px rgb(255, 255, 255);
+    width: 80px;
+    height: 80px;
+    background: rgb(212, 212, 212);
+    /* box-shadow: 0px 0px 20px 10px rgb(255, 255, 255);
   -webkit-box-shadow: 0px 0px 20px 10px rgb(255, 255, 255);
   -moz-box-shadow: 0px 0px 20px 10px rgb(255, 255, 255); */
-  -webkit-clip-path: polygon(
-    20% 0%,
-    0% 20%,
-    30% 50%,
-    50% 70%,
-    70% 50%,
-    100% 20%,
-    80% 0%,
-    50% 30%
-  );
-  clip-path: polygon(
-    20% 0%,
-    0% 20%,
-    30% 50%,
-    50% 70%,
-    70% 50%,
-    100% 20%,
-    80% 0%,
-    50% 30%
-  );
+    -webkit-clip-path: polygon(
+        20% 0%,
+        0% 20%,
+        30% 50%,
+        50% 70%,
+        70% 50%,
+        100% 20%,
+        80% 0%,
+        50% 30%
+    );
+    clip-path: polygon(
+        20% 0%,
+        0% 20%,
+        30% 50%,
+        50% 70%,
+        70% 50%,
+        100% 20%,
+        80% 0%,
+        50% 30%
+    );
 }
 .halter {
-  position: absolute;
-  bottom: 88%;
-  border: none;
-  margin-left: 30px;
+    position: absolute;
+    bottom: 90.5%;
+    border: none;
+    margin-left: 30px;
 
-  /* box-shadow: 0px 0px 20px 10px rgb(255, 255, 255);
+    /* box-shadow: 0px 0px 20px 10px rgb(255, 255, 255);
   -webkit-box-shadow: 0px 0px 20px 10px rgb(255, 255, 255);
   -moz-box-shadow: 0px 0px 20px 10px rgb(255, 255, 255);
  */
